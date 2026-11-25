@@ -1,0 +1,332 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/client-m/datalayer.schema.json",
+  "title": "Client M dataLayer ecommerce events (template)",
+  "description": "One branch per event of tracking_plan.md. Names follow the GA4 recommended events reference (read 2026-11-25).",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/view_item_list"
+    },
+    {
+      "$ref": "#/$defs/view_item"
+    },
+    {
+      "$ref": "#/$defs/add_to_cart"
+    },
+    {
+      "$ref": "#/$defs/begin_checkout"
+    },
+    {
+      "$ref": "#/$defs/add_payment_info"
+    },
+    {
+      "$ref": "#/$defs/purchase"
+    }
+  ],
+  "$defs": {
+    "item": {
+      "type": "object",
+      "required": [
+        "item_id",
+        "item_name",
+        "price",
+        "quantity"
+      ],
+      "properties": {
+        "item_id": {
+          "type": "string"
+        },
+        "item_name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "item_category": {
+          "type": "string"
+        },
+        "item_list_name": {
+          "type": "string"
+        }
+      }
+    },
+    "view_item_list": {
+      "type": "object",
+      "required": [
+        "event",
+        "ecommerce"
+      ],
+      "properties": {
+        "event": {
+          "const": "view_item_list"
+        },
+        "ecommerce": {
+          "type": "object",
+          "required": [
+            "item_list_id",
+            "item_list_name",
+            "items"
+          ],
+          "properties": {
+            "item_list_id": {
+              "type": "string"
+            },
+            "item_list_name": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/item"
+              }
+            }
+          }
+        }
+      }
+    },
+    "view_item": {
+      "type": "object",
+      "required": [
+        "event",
+        "ecommerce",
+        "event_id"
+      ],
+      "properties": {
+        "event": {
+          "const": "view_item"
+        },
+        "ecommerce": {
+          "type": "object",
+          "required": [
+            "currency",
+            "value",
+            "items"
+          ],
+          "properties": {
+            "currency": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/item"
+              }
+            }
+          }
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^evt_[0-9a-f]{16}$"
+        }
+      }
+    },
+    "add_to_cart": {
+      "type": "object",
+      "required": [
+        "event",
+        "ecommerce",
+        "event_id"
+      ],
+      "properties": {
+        "event": {
+          "const": "add_to_cart"
+        },
+        "ecommerce": {
+          "type": "object",
+          "required": [
+            "currency",
+            "value",
+            "items"
+          ],
+          "properties": {
+            "currency": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/item"
+              }
+            }
+          }
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^evt_[0-9a-f]{16}$"
+        }
+      }
+    },
+    "begin_checkout": {
+      "type": "object",
+      "required": [
+        "event",
+        "ecommerce",
+        "event_id"
+      ],
+      "properties": {
+        "event": {
+          "const": "begin_checkout"
+        },
+        "ecommerce": {
+          "type": "object",
+          "required": [
+            "currency",
+            "value",
+            "items"
+          ],
+          "properties": {
+            "currency": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "coupon": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/item"
+              }
+            }
+          }
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^evt_[0-9a-f]{16}$"
+        }
+      }
+    },
+    "add_payment_info": {
+      "type": "object",
+      "required": [
+        "event",
+        "ecommerce",
+        "event_id"
+      ],
+      "properties": {
+        "event": {
+          "const": "add_payment_info"
+        },
+        "ecommerce": {
+          "type": "object",
+          "required": [
+            "currency",
+            "value",
+            "payment_type",
+            "items"
+          ],
+          "properties": {
+            "currency": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "payment_type": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/item"
+              }
+            }
+          }
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^evt_[0-9a-f]{16}$"
+        }
+      }
+    },
+    "purchase": {
+      "type": "object",
+      "required": [
+        "event",
+        "ecommerce",
+        "event_id"
+      ],
+      "properties": {
+        "event": {
+          "const": "purchase"
+        },
+        "ecommerce": {
+          "type": "object",
+          "required": [
+            "transaction_id",
+            "value",
+            "currency",
+            "items"
+          ],
+          "properties": {
+            "transaction_id": {
+              "type": "string",
+              "minLength": 1,
+              "not": {
+                "enum": [
+                  "(not set)",
+                  "undefined",
+                  "null"
+                ]
+              }
+            },
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "currency": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "tax": {
+              "type": "number"
+            },
+            "shipping": {
+              "type": "number"
+            },
+            "coupon": {
+              "type": "string"
+            },
+            "items": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/item"
+              }
+            }
+          }
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^evt_[0-9a-f]{16}$"
+        }
+      }
+    }
+  }
+}

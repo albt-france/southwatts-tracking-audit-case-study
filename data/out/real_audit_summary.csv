@@ -1,0 +1,11 @@
+metric,value
+purchase_events,5692.0
+distinct_transaction_ids,4451.0
+purchases_without_id,906.0
+duplicated_ids,326.0
+extra_purchase_rows,335.0
+page_views,1350428.0
+page_views_self_referral,206005.0
+page_views_missing_medium,866938.0
+page_views_medium_data_deleted,8811.0
+sessions,359817.0

@@ -1,0 +1,13 @@
+# raw and local-only data
+data/raw/
+data/sim/
+data/cache/
+data/_hidden_truth.csv
+data/out/_run.log
+.env
+# caches
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+test-results/
+*.trace.zip

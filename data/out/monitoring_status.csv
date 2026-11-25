@@ -1,0 +1,77 @@
+check,grain,period,scope,value,warn_threshold,fail_threshold,status,note
+platform_reconciliation,week,2026-11-16,US / meta,1.192,,,PASS,view-through credit and consent: within normal range
+platform_reconciliation,week,2026-11-16,UK / meta,0.986,,,PASS,view-through credit and consent: within normal range
+platform_reconciliation,week,2026-11-16,PL / meta,0.758,,,PASS,view-through credit and consent: within normal range
+platform_reconciliation,week,2026-11-16,NL / meta,0.738,,,PASS,view-through credit and consent: within normal range
+platform_reconciliation,week,2026-11-16,IT / meta,0.806,,,PASS,view-through credit and consent: within normal range
+platform_reconciliation,week,2026-11-16,FR / meta,1.456,,,FAIL,Meta side broken: pixel and CAPI event_id differ (double counting)
+platform_reconciliation,week,2026-11-16,ES / meta,1.654,,,FAIL,Meta side broken: pixel and CAPI event_id differ (double counting)
+platform_reconciliation,week,2026-11-16,DE / meta,0.618,,,PASS,view-through credit and consent: within normal range
+platform_reconciliation,week,2026-11-16,US / google_ads,1.042,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+platform_reconciliation,week,2026-11-16,UK / google_ads,4.28,,,FAIL,GA4 side broken: cross-domain (payment provider / self-referral)
+platform_reconciliation,week,2026-11-16,PL / google_ads,0.901,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+platform_reconciliation,week,2026-11-16,NL / google_ads,1.188,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+platform_reconciliation,week,2026-11-16,IT / google_ads,0.988,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+platform_reconciliation,week,2026-11-16,FR / google_ads,1.022,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+platform_reconciliation,week,2026-11-16,ES / google_ads,1.106,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+platform_reconciliation,week,2026-11-16,DE / google_ads,1.194,,,PASS,"attribution model (data-driven vs last non-direct click), 30-day window, click date"
+feed_quality,snapshot,2026-11-23,NL,0.0,0.0,0.0,PASS,
+feed_quality,snapshot,2026-11-23,PL,0.1,0.0,0.0,FAIL,
+feed_quality,snapshot,2026-11-23,FR,0.0,0.0,0.0,PASS,
+feed_quality,snapshot,2026-11-23,ES,0.0,0.0,0.0,PASS,
+feed_quality,snapshot,2026-11-23,DE,0.0,0.0,0.0,PASS,
+feed_quality,snapshot,2026-11-23,IT,0.0,0.0,0.0,PASS,
+feed_quality,snapshot,2026-11-23,UK,0.1,0.0,0.0,FAIL,
+meta_event_id_match,day,2026-11-23,ES,0.0,0.98,0.9,FAIL,
+ga4_duplicate_purchases,day,2026-11-23,NL,0.0,0.01,0.03,PASS,
+ga4_duplicate_purchases,day,2026-11-23,IT,0.0377,0.01,0.03,FAIL,
+ga4_duplicate_purchases,day,2026-11-23,FR,0.0,0.01,0.03,PASS,
+ga4_duplicate_purchases,day,2026-11-23,ES,0.0,0.01,0.03,PASS,
+ga4_duplicate_purchases,day,2026-11-23,DE,0.0,0.01,0.03,PASS,
+pre_consent_hits,day,2026-11-23,US,0.0,0.0,0.0,PASS,
+pre_consent_hits,day,2026-11-23,UK,0.0,0.0,0.0,PASS,
+pre_consent_hits,day,2026-11-23,PL,0.0,0.0,0.0,PASS,
+pre_consent_hits,day,2026-11-23,NL,0.0,0.0,0.0,PASS,
+pre_consent_hits,day,2026-11-23,IT,0.0,0.0,0.0,PASS,
+ga4_duplicate_purchases,day,2026-11-23,PL,0.0,0.01,0.03,PASS,
+pre_consent_hits,day,2026-11-23,FR,0.0,0.0,0.0,PASS,
+pre_consent_hits,day,2026-11-23,DE,0.0,0.0,0.0,PASS,
+sessions_vs_baseline,day,2026-11-23,US,0.0316,0.12,0.25,PASS,
+sessions_vs_baseline,day,2026-11-23,UK,0.0419,0.12,0.25,PASS,
+meta_event_id_match,day,2026-11-23,DE,1.0,0.98,0.9,PASS,
+sessions_vs_baseline,day,2026-11-23,PL,0.0023,0.12,0.25,PASS,
+sessions_vs_baseline,day,2026-11-23,NL,0.0049,0.12,0.25,PASS,
+sessions_vs_baseline,day,2026-11-23,IT,0.0307,0.12,0.25,PASS,
+sessions_vs_baseline,day,2026-11-23,FR,0.0547,0.12,0.25,PASS,
+sessions_vs_baseline,day,2026-11-23,ES,0.0048,0.12,0.25,PASS,
+sessions_vs_baseline,day,2026-11-23,DE,0.0131,0.12,0.25,PASS,
+pre_consent_hits,day,2026-11-23,ES,0.0,0.0,0.0,PASS,
+ga4_duplicate_purchases,day,2026-11-23,UK,0.0,0.01,0.03,PASS,
+feed_quality,snapshot,2026-11-23,US,0.0,0.0,0.0,PASS,
+paid_unassigned_share,week,2026-11-23,US,0.213,0.05,0.1,FAIL,
+meta_event_id_match,day,2026-11-23,UK,1.0,0.98,0.9,PASS,
+meta_event_id_match,day,2026-11-23,PL,1.0,0.98,0.9,PASS,
+meta_event_id_match,day,2026-11-23,NL,1.0,0.98,0.9,PASS,
+meta_event_id_match,day,2026-11-23,IT,1.0,0.98,0.9,PASS,
+meta_event_id_match,day,2026-11-23,FR,0.0,0.98,0.9,FAIL,
+purchase_self_referral,day,2026-11-23,DE,0.0,0.02,0.05,PASS,
+purchase_self_referral,day,2026-11-23,ES,0.0,0.02,0.05,PASS,
+purchase_self_referral,day,2026-11-23,FR,0.0,0.02,0.05,PASS,
+purchase_self_referral,day,2026-11-23,IT,0.0,0.02,0.05,PASS,
+ga4_duplicate_purchases,day,2026-11-23,US,0.0,0.01,0.03,PASS,
+purchase_self_referral,day,2026-11-23,PL,0.0,0.02,0.05,PASS,
+paid_unassigned_share,week,2026-11-23,IT,0.305,0.05,0.1,FAIL,
+paid_unassigned_share,week,2026-11-23,ES,0.166,0.05,0.1,FAIL,
+paid_unassigned_share,week,2026-11-23,NL,0.191,0.05,0.1,FAIL,
+paid_unassigned_share,week,2026-11-23,PL,0.251,0.05,0.1,FAIL,
+paid_unassigned_share,week,2026-11-23,UK,0.144,0.05,0.1,FAIL,
+paid_unassigned_share,week,2026-11-23,FR,0.151,0.05,0.1,FAIL,
+purchase_self_referral,day,2026-11-23,NL,0.0,0.02,0.05,PASS,
+paid_unassigned_share,week,2026-11-23,DE,0.178,0.05,0.1,FAIL,
+purchase_self_referral,day,2026-11-23,US,0.0,0.02,0.05,PASS,
+purchase_self_referral,day,2026-11-23,UK,0.6824,0.02,0.05,FAIL,
+meta_event_id_match,day,2026-11-24,US,1.0,0.98,0.9,PASS,
+server_error_rate,hour,2026-11-24 01:00:00,google_ads,0.0,0.05,0.2,PASS,
+server_error_rate,hour,2026-11-24 01:00:00,linkedin_capi,0.0,0.05,0.2,PASS,
+server_error_rate,hour,2026-11-24 04:00:00,meta_capi,0.0,0.05,0.2,PASS,
+server_error_rate,hour,2026-11-24 04:00:00,ga4,0.0,0.05,0.2,PASS,

@@ -1,0 +1,267 @@
+link_id,agency,market,platform,status,issues,suggested_source,suggested_medium,suggested_campaign
+LNK0001,AGY1,FR,google_ads,PASS,,google,cpc,fr_search_2026q4
+LNK0002,AGY1,FR,google_ads,PASS,,google,cpc,fr_search_2026q4
+LNK0003,AGY1,FR,google_ads,PASS,,google,cpc,fr_search_2026q4
+LNK0004,AGY1,FR,google_ads,PASS,,google,cpc,fr_search_2026q4
+LNK0005,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0006,AGY1,FR,google_ads,FAIL,utm_medium missing,google,cpc,fr_shopping_2026q4
+LNK0007,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0008,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0009,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0010,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0011,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0012,AGY1,FR,google_ads,PASS,,google,cpc,fr_shopping_2026q4
+LNK0013,AGY2,FR,meta,PASS,,meta,paid_social,fr_prospecting_2026q4
+LNK0014,AGY2,FR,meta,PASS,,meta,paid_social,fr_prospecting_2026q4
+LNK0015,AGY2,FR,meta,FAIL,pair fb/social not approved,meta,paid_social,fr_prospecting_2026q4
+LNK0016,AGY2,FR,meta,PASS,,meta,paid_social,fr_prospecting_2026q4
+LNK0017,AGY2,FR,meta,FAIL,utm_medium missing,meta,paid_social,fr_prospecting_2026q4
+LNK0018,AGY2,FR,meta,PASS,,meta,paid_social,fr_prospecting_2026q4
+LNK0019,AGY2,FR,meta,FAIL,utm_source not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair Facebook/cpc not approved; utm_campaign off convention,meta,paid_social,fr_prospecting_2026q4
+LNK0020,AGY2,FR,meta,PASS,,meta,paid_social,fr_retargeting_2026q4
+LNK0021,AGY2,FR,meta,PASS,,meta,paid_social,fr_retargeting_2026q4
+LNK0022,AGY2,FR,meta,PASS,,meta,paid_social,fr_retargeting_2026q4
+LNK0023,AGY2,FR,meta,FAIL,pair fb/paid_social not approved,meta,paid_social,fr_retargeting_2026q4
+LNK0024,AGY3,FR,cm360,PASS,,cm360,display,fr_display_2026q4
+LNK0025,AGY3,FR,cm360,PASS,,cm360,display,fr_display_2026q4
+LNK0026,AGY3,FR,cm360,FAIL,utm_medium missing,cm360,display,fr_display_2026q4
+LNK0027,AGY3,FR,cm360,PASS,,cm360,display,fr_display_2026q4
+LNK0028,AGY3,FR,cm360,PASS,,cm360,display,fr_display_2026q4
+LNK0029,AGY3,FR,cm360,PASS,,cm360,display,fr_display_2026q4
+LNK0030,AGY3,FR,cm360,PASS,,cm360,display,fr_display_2026q4
+LNK0031,AGY3,FR,cm360,FAIL,utm_medium missing,cm360,display,fr_display_2026q4
+LNK0032,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0033,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0034,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0035,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0036,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0037,AGY2,FR,linkedin,FAIL,utm_medium missing,linkedin,paid_social,fr_awareness_2026q4
+LNK0038,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0039,AGY2,FR,linkedin,PASS,,linkedin,paid_social,fr_awareness_2026q4
+LNK0040,AGY1,DE,google_ads,PASS,,google,cpc,de_search_2026q4
+LNK0041,AGY1,DE,google_ads,FAIL,utm_medium missing,google,cpc,de_search_2026q4
+LNK0042,AGY1,DE,google_ads,PASS,,google,cpc,de_search_2026q4
+LNK0043,AGY1,DE,google_ads,FAIL,utm_medium missing,google,cpc,de_search_2026q4
+LNK0044,AGY1,DE,google_ads,PASS,,google,cpc,de_search_2026q4
+LNK0045,AGY1,DE,google_ads,PASS,,google,cpc,de_search_2026q4
+LNK0046,AGY1,DE,google_ads,PASS,,google,cpc,de_search_2026q4
+LNK0047,AGY1,DE,google_ads,PASS,,google,cpc,de_search_2026q4
+LNK0048,AGY1,DE,google_ads,FAIL,utm_medium missing,google,cpc,de_shopping_2026q4
+LNK0049,AGY1,DE,google_ads,PASS,,google,cpc,de_shopping_2026q4
+LNK0050,AGY1,DE,google_ads,PASS,,google,cpc,de_shopping_2026q4
+LNK0051,AGY1,DE,google_ads,PASS,,google,cpc,de_shopping_2026q4
+LNK0052,AGY1,DE,google_ads,PASS,,google,cpc,de_shopping_2026q4
+LNK0053,AGY1,DE,google_ads,PASS,,google,cpc,de_shopping_2026q4
+LNK0054,AGY2,DE,meta,PASS,,meta,paid_social,de_prospecting_2026q4
+LNK0055,AGY2,DE,meta,PASS,,meta,paid_social,de_prospecting_2026q4
+LNK0056,AGY2,DE,meta,FAIL,utm_medium missing,meta,paid_social,de_prospecting_2026q4
+LNK0057,AGY2,DE,meta,PASS,,meta,paid_social,de_prospecting_2026q4
+LNK0058,AGY2,DE,meta,FAIL,utm_source not lowercase; pair Facebook/social not approved,meta,paid_social,de_prospecting_2026q4
+LNK0059,AGY2,DE,meta,FAIL,pair fb/paid_social not approved,meta,paid_social,de_prospecting_2026q4
+LNK0060,AGY2,DE,meta,PASS,,meta,paid_social,de_prospecting_2026q4
+LNK0061,AGY2,DE,meta,PASS,,meta,paid_social,de_retargeting_2026q4
+LNK0062,AGY2,DE,meta,PASS,,meta,paid_social,de_retargeting_2026q4
+LNK0063,AGY2,DE,meta,FAIL,utm_source not lowercase; pair Facebook/paid_social not approved,meta,paid_social,de_retargeting_2026q4
+LNK0064,AGY2,DE,meta,PASS,,meta,paid_social,de_retargeting_2026q4
+LNK0065,AGY2,DE,meta,FAIL,utm_source not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair Facebook/social not approved; utm_campaign off convention,meta,paid_social,de_retargeting_2026q4
+LNK0066,AGY2,DE,meta,FAIL,utm_campaign not lowercase; utm_campaign contains spaces; pair facebook/paid_social not approved; utm_campaign off convention,meta,paid_social,de_retargeting_2026q4
+LNK0067,AGY3,DE,cm360,PASS,,cm360,display,de_display_2026q4
+LNK0068,AGY3,DE,cm360,PASS,,cm360,display,de_display_2026q4
+LNK0069,AGY3,DE,cm360,PASS,,cm360,display,de_display_2026q4
+LNK0070,AGY3,DE,cm360,PASS,,cm360,display,de_display_2026q4
+LNK0071,AGY3,DE,cm360,PASS,,cm360,display,de_display_2026q4
+LNK0072,AGY2,DE,linkedin,PASS,,linkedin,paid_social,de_awareness_2026q4
+LNK0073,AGY2,DE,linkedin,PASS,,linkedin,paid_social,de_awareness_2026q4
+LNK0074,AGY2,DE,linkedin,FAIL,utm_medium missing,linkedin,paid_social,de_awareness_2026q4
+LNK0075,AGY2,DE,linkedin,PASS,,linkedin,paid_social,de_awareness_2026q4
+LNK0076,AGY1,ES,google_ads,PASS,,google,cpc,es_search_2026q4
+LNK0077,AGY1,ES,google_ads,PASS,,google,cpc,es_search_2026q4
+LNK0078,AGY1,ES,google_ads,FAIL,utm_medium missing,google,cpc,es_search_2026q4
+LNK0079,AGY1,ES,google_ads,PASS,,google,cpc,es_search_2026q4
+LNK0080,AGY1,ES,google_ads,FAIL,utm_medium missing,google,cpc,es_search_2026q4
+LNK0081,AGY1,ES,google_ads,PASS,,google,cpc,es_shopping_2026q4
+LNK0082,AGY1,ES,google_ads,PASS,,google,cpc,es_shopping_2026q4
+LNK0083,AGY1,ES,google_ads,PASS,,google,cpc,es_shopping_2026q4
+LNK0084,AGY1,ES,google_ads,PASS,,google,cpc,es_shopping_2026q4
+LNK0085,AGY1,ES,google_ads,PASS,,google,cpc,es_shopping_2026q4
+LNK0086,AGY2,ES,meta,FAIL,utm_medium not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair fb/Paid_Social not approved; utm_campaign off convention,meta,paid_social,es_prospecting_2026q4
+LNK0087,AGY2,ES,meta,FAIL,pair facebook/cpc not approved,meta,paid_social,es_prospecting_2026q4
+LNK0088,AGY2,ES,meta,PASS,,meta,paid_social,es_prospecting_2026q4
+LNK0089,AGY2,ES,meta,FAIL,utm_source not lowercase; utm_medium missing; utm_campaign not lowercase; utm_campaign contains spaces; utm_campaign off convention,meta,paid_social,es_prospecting_2026q4
+LNK0090,AGY2,ES,meta,FAIL,utm_source not lowercase; pair Facebook/cpc not approved,meta,paid_social,es_retargeting_2026q4
+LNK0091,AGY2,ES,meta,PASS,,meta,paid_social,es_retargeting_2026q4
+LNK0092,AGY2,ES,meta,PASS,,meta,paid_social,es_retargeting_2026q4
+LNK0093,AGY2,ES,meta,PASS,,meta,paid_social,es_retargeting_2026q4
+LNK0094,AGY2,ES,meta,PASS,,meta,paid_social,es_retargeting_2026q4
+LNK0095,AGY2,ES,meta,PASS,,meta,paid_social,es_retargeting_2026q4
+LNK0096,AGY2,ES,meta,PASS,,meta,paid_social,es_retargeting_2026q4
+LNK0097,AGY3,ES,cm360,PASS,,cm360,display,es_display_2026q4
+LNK0098,AGY3,ES,cm360,PASS,,cm360,display,es_display_2026q4
+LNK0099,AGY3,ES,cm360,PASS,,cm360,display,es_display_2026q4
+LNK0100,AGY3,ES,cm360,PASS,,cm360,display,es_display_2026q4
+LNK0101,AGY3,ES,cm360,PASS,,cm360,display,es_display_2026q4
+LNK0102,AGY3,ES,cm360,PASS,,cm360,display,es_display_2026q4
+LNK0103,AGY1,IT,google_ads,PASS,,google,cpc,it_search_2026q4
+LNK0104,AGY1,IT,google_ads,PASS,,google,cpc,it_search_2026q4
+LNK0105,AGY1,IT,google_ads,PASS,,google,cpc,it_search_2026q4
+LNK0106,AGY1,IT,google_ads,PASS,,google,cpc,it_search_2026q4
+LNK0107,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0108,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0109,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0110,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0111,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0112,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0113,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0114,AGY1,IT,google_ads,PASS,,google,cpc,it_shopping_2026q4
+LNK0115,AGY2,IT,meta,FAIL,pair facebook/social not approved,meta,paid_social,it_prospecting_2026q4
+LNK0116,AGY2,IT,meta,FAIL,pair facebook/social not approved,meta,paid_social,it_prospecting_2026q4
+LNK0117,AGY2,IT,meta,FAIL,utm_medium missing,meta,paid_social,it_prospecting_2026q4
+LNK0118,AGY2,IT,meta,FAIL,utm_source not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair Facebook/paid_social not approved; utm_campaign off convention,meta,paid_social,it_prospecting_2026q4
+LNK0119,AGY2,IT,meta,FAIL,utm_medium not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair fb/Paid_Social not approved; utm_campaign off convention,meta,paid_social,it_prospecting_2026q4
+LNK0120,AGY2,IT,meta,FAIL,utm_medium missing,meta,paid_social,it_prospecting_2026q4
+LNK0121,AGY2,IT,meta,FAIL,utm_medium not lowercase; pair fb/Paid_Social not approved,meta,paid_social,it_retargeting_2026q4
+LNK0122,AGY2,IT,meta,PASS,,meta,paid_social,it_retargeting_2026q4
+LNK0123,AGY2,IT,meta,FAIL,utm_source not lowercase; pair Facebook/social not approved,meta,paid_social,it_retargeting_2026q4
+LNK0124,AGY2,IT,meta,FAIL,utm_campaign not lowercase; utm_campaign contains spaces; pair fb/social not approved; utm_campaign off convention,meta,paid_social,it_retargeting_2026q4
+LNK0125,AGY2,IT,meta,PASS,,meta,paid_social,it_retargeting_2026q4
+LNK0126,AGY2,IT,meta,PASS,,meta,paid_social,it_retargeting_2026q4
+LNK0127,AGY2,IT,meta,FAIL,pair facebook/social not approved,meta,paid_social,it_retargeting_2026q4
+LNK0128,AGY2,IT,meta,PASS,,meta,paid_social,it_retargeting_2026q4
+LNK0129,AGY3,IT,cm360,PASS,,cm360,display,it_display_2026q4
+LNK0130,AGY3,IT,cm360,PASS,,cm360,display,it_display_2026q4
+LNK0131,AGY3,IT,cm360,PASS,,cm360,display,it_display_2026q4
+LNK0132,AGY3,IT,cm360,PASS,,cm360,display,it_display_2026q4
+LNK0133,AGY1,UK,google_ads,PASS,,google,cpc,uk_search_2026q4
+LNK0134,AGY1,UK,google_ads,PASS,,google,cpc,uk_search_2026q4
+LNK0135,AGY1,UK,google_ads,PASS,,google,cpc,uk_search_2026q4
+LNK0136,AGY1,UK,google_ads,PASS,,google,cpc,uk_search_2026q4
+LNK0137,AGY1,UK,google_ads,PASS,,google,cpc,uk_search_2026q4
+LNK0138,AGY1,UK,google_ads,PASS,,google,cpc,uk_search_2026q4
+LNK0139,AGY1,UK,google_ads,PASS,,google,cpc,uk_shopping_2026q4
+LNK0140,AGY1,UK,google_ads,PASS,,google,cpc,uk_shopping_2026q4
+LNK0141,AGY1,UK,google_ads,PASS,,google,cpc,uk_shopping_2026q4
+LNK0142,AGY1,UK,google_ads,PASS,,google,cpc,uk_shopping_2026q4
+LNK0143,AGY1,UK,google_ads,FAIL,utm_medium missing,google,cpc,uk_shopping_2026q4
+LNK0144,AGY1,UK,google_ads,PASS,,google,cpc,uk_shopping_2026q4
+LNK0145,AGY1,UK,google_ads,PASS,,google,cpc,uk_shopping_2026q4
+LNK0146,AGY2,UK,meta,FAIL,utm_source not lowercase; utm_medium missing,meta,paid_social,uk_prospecting_2026q4
+LNK0147,AGY2,UK,meta,PASS,,meta,paid_social,uk_prospecting_2026q4
+LNK0148,AGY2,UK,meta,PASS,,meta,paid_social,uk_prospecting_2026q4
+LNK0149,AGY2,UK,meta,FAIL,pair fb/cpc not approved,meta,paid_social,uk_prospecting_2026q4
+LNK0150,AGY2,UK,meta,PASS,,meta,paid_social,uk_retargeting_2026q4
+LNK0151,AGY2,UK,meta,FAIL,utm_medium missing,meta,paid_social,uk_retargeting_2026q4
+LNK0152,AGY2,UK,meta,PASS,,meta,paid_social,uk_retargeting_2026q4
+LNK0153,AGY2,UK,meta,PASS,,meta,paid_social,uk_retargeting_2026q4
+LNK0154,AGY2,UK,meta,FAIL,utm_source not lowercase; utm_medium missing,meta,paid_social,uk_retargeting_2026q4
+LNK0155,AGY2,UK,meta,PASS,,meta,paid_social,uk_retargeting_2026q4
+LNK0156,AGY2,UK,meta,FAIL,utm_campaign not lowercase; utm_campaign contains spaces; pair facebook/paid_social not approved; utm_campaign off convention,meta,paid_social,uk_retargeting_2026q4
+LNK0157,AGY3,UK,cm360,PASS,,cm360,display,uk_display_2026q4
+LNK0158,AGY3,UK,cm360,PASS,,cm360,display,uk_display_2026q4
+LNK0159,AGY3,UK,cm360,PASS,,cm360,display,uk_display_2026q4
+LNK0160,AGY3,UK,cm360,PASS,,cm360,display,uk_display_2026q4
+LNK0161,AGY3,UK,cm360,PASS,,cm360,display,uk_display_2026q4
+LNK0162,AGY3,UK,cm360,PASS,,cm360,display,uk_display_2026q4
+LNK0163,AGY2,UK,linkedin,PASS,,linkedin,paid_social,uk_awareness_2026q4
+LNK0164,AGY2,UK,linkedin,PASS,,linkedin,paid_social,uk_awareness_2026q4
+LNK0165,AGY2,UK,linkedin,PASS,,linkedin,paid_social,uk_awareness_2026q4
+LNK0166,AGY2,UK,linkedin,PASS,,linkedin,paid_social,uk_awareness_2026q4
+LNK0167,AGY2,UK,linkedin,PASS,,linkedin,paid_social,uk_awareness_2026q4
+LNK0168,AGY1,NL,google_ads,PASS,,google,cpc,nl_search_2026q4
+LNK0169,AGY1,NL,google_ads,PASS,,google,cpc,nl_search_2026q4
+LNK0170,AGY1,NL,google_ads,PASS,,google,cpc,nl_search_2026q4
+LNK0171,AGY1,NL,google_ads,PASS,,google,cpc,nl_search_2026q4
+LNK0172,AGY1,NL,google_ads,PASS,,google,cpc,nl_shopping_2026q4
+LNK0173,AGY1,NL,google_ads,PASS,,google,cpc,nl_shopping_2026q4
+LNK0174,AGY1,NL,google_ads,PASS,,google,cpc,nl_shopping_2026q4
+LNK0175,AGY1,NL,google_ads,PASS,,google,cpc,nl_shopping_2026q4
+LNK0176,AGY1,NL,google_ads,PASS,,google,cpc,nl_shopping_2026q4
+LNK0177,AGY2,NL,meta,FAIL,utm_medium missing,meta,paid_social,nl_prospecting_2026q4
+LNK0178,AGY2,NL,meta,PASS,,meta,paid_social,nl_prospecting_2026q4
+LNK0179,AGY2,NL,meta,PASS,,meta,paid_social,nl_prospecting_2026q4
+LNK0180,AGY2,NL,meta,FAIL,utm_medium not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair fb/Paid_Social not approved; utm_campaign off convention,meta,paid_social,nl_prospecting_2026q4
+LNK0181,AGY2,NL,meta,PASS,,meta,paid_social,nl_prospecting_2026q4
+LNK0182,AGY2,NL,meta,FAIL,utm_source not lowercase; utm_medium not lowercase; pair Facebook/Paid_Social not approved,meta,paid_social,nl_prospecting_2026q4
+LNK0183,AGY2,NL,meta,PASS,,meta,paid_social,nl_prospecting_2026q4
+LNK0184,AGY2,NL,meta,FAIL,utm_campaign not lowercase; utm_campaign contains spaces; pair fb/cpc not approved; utm_campaign off convention,meta,paid_social,nl_retargeting_2026q4
+LNK0185,AGY2,NL,meta,PASS,,meta,paid_social,nl_retargeting_2026q4
+LNK0186,AGY2,NL,meta,PASS,,meta,paid_social,nl_retargeting_2026q4
+LNK0187,AGY2,NL,meta,PASS,,meta,paid_social,nl_retargeting_2026q4
+LNK0188,AGY2,NL,meta,FAIL,pair fb/social not approved,meta,paid_social,nl_retargeting_2026q4
+LNK0189,AGY2,NL,meta,FAIL,utm_source not lowercase; utm_medium missing,meta,paid_social,nl_retargeting_2026q4
+LNK0190,AGY2,NL,meta,PASS,,meta,paid_social,nl_retargeting_2026q4
+LNK0191,AGY3,NL,cm360,PASS,,cm360,display,nl_display_2026q4
+LNK0192,AGY3,NL,cm360,PASS,,cm360,display,nl_display_2026q4
+LNK0193,AGY3,NL,cm360,PASS,,cm360,display,nl_display_2026q4
+LNK0194,AGY3,NL,cm360,PASS,,cm360,display,nl_display_2026q4
+LNK0195,AGY3,NL,cm360,PASS,,cm360,display,nl_display_2026q4
+LNK0196,AGY3,NL,cm360,FAIL,utm_medium missing,cm360,display,nl_display_2026q4
+LNK0197,AGY3,NL,cm360,PASS,,cm360,display,nl_display_2026q4
+LNK0198,AGY2,NL,linkedin,PASS,,linkedin,paid_social,nl_awareness_2026q4
+LNK0199,AGY2,NL,linkedin,PASS,,linkedin,paid_social,nl_awareness_2026q4
+LNK0200,AGY2,NL,linkedin,PASS,,linkedin,paid_social,nl_awareness_2026q4
+LNK0201,AGY2,NL,linkedin,FAIL,utm_medium missing,linkedin,paid_social,nl_awareness_2026q4
+LNK0202,AGY2,NL,linkedin,PASS,,linkedin,paid_social,nl_awareness_2026q4
+LNK0203,AGY2,NL,linkedin,PASS,,linkedin,paid_social,nl_awareness_2026q4
+LNK0204,AGY1,PL,google_ads,PASS,,google,cpc,pl_search_2026q4
+LNK0205,AGY1,PL,google_ads,PASS,,google,cpc,pl_search_2026q4
+LNK0206,AGY1,PL,google_ads,FAIL,utm_medium missing,google,cpc,pl_search_2026q4
+LNK0207,AGY1,PL,google_ads,PASS,,google,cpc,pl_search_2026q4
+LNK0208,AGY1,PL,google_ads,PASS,,google,cpc,pl_search_2026q4
+LNK0209,AGY1,PL,google_ads,PASS,,google,cpc,pl_search_2026q4
+LNK0210,AGY1,PL,google_ads,PASS,,google,cpc,pl_shopping_2026q4
+LNK0211,AGY1,PL,google_ads,PASS,,google,cpc,pl_shopping_2026q4
+LNK0212,AGY1,PL,google_ads,PASS,,google,cpc,pl_shopping_2026q4
+LNK0213,AGY1,PL,google_ads,PASS,,google,cpc,pl_shopping_2026q4
+LNK0214,AGY1,PL,google_ads,FAIL,utm_medium missing,google,cpc,pl_shopping_2026q4
+LNK0215,AGY1,PL,google_ads,PASS,,google,cpc,pl_shopping_2026q4
+LNK0216,AGY1,PL,google_ads,PASS,,google,cpc,pl_shopping_2026q4
+LNK0217,AGY2,PL,meta,PASS,,meta,paid_social,pl_prospecting_2026q4
+LNK0218,AGY2,PL,meta,FAIL,utm_source not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair Facebook/paid_social not approved; utm_campaign off convention,meta,paid_social,pl_prospecting_2026q4
+LNK0219,AGY2,PL,meta,FAIL,utm_source not lowercase; pair Facebook/cpc not approved,meta,paid_social,pl_prospecting_2026q4
+LNK0220,AGY2,PL,meta,FAIL,utm_source not lowercase; utm_medium not lowercase; pair Facebook/Paid_Social not approved,meta,paid_social,pl_prospecting_2026q4
+LNK0221,AGY2,PL,meta,FAIL,utm_source not lowercase; pair Facebook/cpc not approved,meta,paid_social,pl_retargeting_2026q4
+LNK0222,AGY2,PL,meta,PASS,,meta,paid_social,pl_retargeting_2026q4
+LNK0223,AGY2,PL,meta,FAIL,utm_source not lowercase; pair Facebook/paid_social not approved,meta,paid_social,pl_retargeting_2026q4
+LNK0224,AGY2,PL,meta,PASS,,meta,paid_social,pl_retargeting_2026q4
+LNK0225,AGY3,PL,cm360,PASS,,cm360,display,pl_display_2026q4
+LNK0226,AGY3,PL,cm360,PASS,,cm360,display,pl_display_2026q4
+LNK0227,AGY3,PL,cm360,PASS,,cm360,display,pl_display_2026q4
+LNK0228,AGY3,PL,cm360,PASS,,cm360,display,pl_display_2026q4
+LNK0229,AGY3,PL,cm360,PASS,,cm360,display,pl_display_2026q4
+LNK0230,AGY1,US,google_ads,PASS,,google,cpc,us_search_2026q4
+LNK0231,AGY1,US,google_ads,FAIL,utm_medium missing,google,cpc,us_search_2026q4
+LNK0232,AGY1,US,google_ads,PASS,,google,cpc,us_search_2026q4
+LNK0233,AGY1,US,google_ads,FAIL,utm_medium missing,google,cpc,us_search_2026q4
+LNK0234,AGY1,US,google_ads,PASS,,google,cpc,us_search_2026q4
+LNK0235,AGY1,US,google_ads,FAIL,utm_medium missing,google,cpc,us_search_2026q4
+LNK0236,AGY1,US,google_ads,PASS,,google,cpc,us_search_2026q4
+LNK0237,AGY1,US,google_ads,PASS,,google,cpc,us_shopping_2026q4
+LNK0238,AGY1,US,google_ads,PASS,,google,cpc,us_shopping_2026q4
+LNK0239,AGY1,US,google_ads,PASS,,google,cpc,us_shopping_2026q4
+LNK0240,AGY1,US,google_ads,PASS,,google,cpc,us_shopping_2026q4
+LNK0241,AGY1,US,google_ads,PASS,,google,cpc,us_shopping_2026q4
+LNK0242,AGY1,US,google_ads,PASS,,google,cpc,us_shopping_2026q4
+LNK0243,AGY2,US,meta,PASS,,meta,paid_social,us_prospecting_2026q4
+LNK0244,AGY2,US,meta,PASS,,meta,paid_social,us_prospecting_2026q4
+LNK0245,AGY2,US,meta,FAIL,pair fb/cpc not approved,meta,paid_social,us_prospecting_2026q4
+LNK0246,AGY2,US,meta,PASS,,meta,paid_social,us_prospecting_2026q4
+LNK0247,AGY2,US,meta,FAIL,pair fb/cpc not approved,meta,paid_social,us_prospecting_2026q4
+LNK0248,AGY2,US,meta,PASS,,meta,paid_social,us_prospecting_2026q4
+LNK0249,AGY2,US,meta,FAIL,utm_source not lowercase; pair Facebook/social not approved,meta,paid_social,us_retargeting_2026q4
+LNK0250,AGY2,US,meta,FAIL,utm_campaign not lowercase; utm_campaign contains spaces; pair fb/cpc not approved; utm_campaign off convention,meta,paid_social,us_retargeting_2026q4
+LNK0251,AGY2,US,meta,FAIL,utm_source not lowercase; pair Facebook/social not approved,meta,paid_social,us_retargeting_2026q4
+LNK0252,AGY2,US,meta,FAIL,utm_source not lowercase; utm_campaign not lowercase; utm_campaign contains spaces; pair Facebook/cpc not approved; utm_campaign off convention,meta,paid_social,us_retargeting_2026q4
+LNK0253,AGY2,US,meta,FAIL,utm_medium missing,meta,paid_social,us_retargeting_2026q4
+LNK0254,AGY2,US,meta,FAIL,utm_medium missing,meta,paid_social,us_retargeting_2026q4
+LNK0255,AGY2,US,meta,FAIL,utm_medium missing,meta,paid_social,us_retargeting_2026q4
+LNK0256,AGY2,US,meta,PASS,,meta,paid_social,us_retargeting_2026q4
+LNK0257,AGY3,US,cm360,PASS,,cm360,display,us_display_2026q4
+LNK0258,AGY3,US,cm360,PASS,,cm360,display,us_display_2026q4
+LNK0259,AGY3,US,cm360,PASS,,cm360,display,us_display_2026q4
+LNK0260,AGY3,US,cm360,PASS,,cm360,display,us_display_2026q4
+LNK0261,AGY2,US,linkedin,FAIL,utm_medium missing,linkedin,paid_social,us_awareness_2026q4
+LNK0262,AGY2,US,linkedin,PASS,,linkedin,paid_social,us_awareness_2026q4
+LNK0263,AGY2,US,linkedin,PASS,,linkedin,paid_social,us_awareness_2026q4
+LNK0264,AGY2,US,linkedin,PASS,,linkedin,paid_social,us_awareness_2026q4
+LNK0265,AGY2,US,linkedin,PASS,,linkedin,paid_social,us_awareness_2026q4
+LNK0266,AGY2,US,linkedin,PASS,,linkedin,paid_social,us_awareness_2026q4

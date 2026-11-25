@@ -1,0 +1,14 @@
+name,passed,detail
+consent_breaks_dated,True,"DE: one rise and one fall, each matched with a release"
+cross_domain_visible,True,Google Ads vs GA4 anomaly explained by cross-domain
+demo_shop_no_external_script,True,external <script src> in site/demo-shop
+duplicate_purchases_visible,True,one market with more than 3% extra purchase events
+feed_issues_visible,True,feed rows breaking the Merchant Center rules
+google_ads_gap_is_expected,True,baseline ratio within 1.10-1.35 and never flagged as a bug
+meta_event_id_breaks,True,FR and ES: event_id match rate collapses
+no_user_pseudo_id_in_outputs,True,outputs containing the pseudonymous user id column
+only_placeholder_measurement_ids,True,files with a GTM-/G-/AW- id that is not a placeholder
+real_audit_facts,True,purchases 5692 / without id 906 / duplicated ids 326 / self-referral page views 206005
+reconciliation_100pct_explained,True,weekly + period rows with category unexplained
+server_outage_alert_within_1h,True,hourly check raises the alert at the end of the first failing hour
+utm_unassigned_visible,True,share of paid sessions in Unassigned

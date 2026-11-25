@@ -1,0 +1,17 @@
+source,url,http_status,read_on,checked_keywords,keywords_found
+ga4_recommended_events,https://developers.google.com/analytics/devguides/collection/ga4/reference/events,200,2026-11-25,purchase;transaction_id;items,True
+ga4_bigquery_export_schema,https://support.google.com/analytics/answer/7029846?hl=en,200,2026-11-25,event_params;user_pseudo_id,True
+ga4_measurement_protocol,https://developers.google.com/analytics/devguides/collection/protocol/ga4,200,2026-11-25,server-to-server;Measurement Protocol,True
+meta_capi_deduplication,https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events,200,2026-11-25,event_id,True
+google_tag_gateway,https://developers.google.com/tag-platform/tag-manager/gateway,200,2026-11-25,gateway,True
+merchant_center_product_data_spec,https://support.google.com/merchants/answer/7052112?hl=en,200,2026-11-25,image_link;availability;price,True
+cnil_cookies_rules,https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies,200,2026-11-25,consentement,True
+iab_tcf_gvl_v3,https://vendor-list.consensu.org/v3/vendor-list.json,200,2026-11-25,vendors,True
+nager_holidays_FR,https://date.nager.at/api/v3/PublicHolidays/2026/FR,200,2026-11-25,date,True
+nager_holidays_DE,https://date.nager.at/api/v3/PublicHolidays/2026/DE,200,2026-11-25,date,True
+nager_holidays_ES,https://date.nager.at/api/v3/PublicHolidays/2026/ES,200,2026-11-25,date,True
+nager_holidays_IT,https://date.nager.at/api/v3/PublicHolidays/2026/IT,200,2026-11-25,date,True
+nager_holidays_GB,https://date.nager.at/api/v3/PublicHolidays/2026/GB,200,2026-11-25,date,True
+nager_holidays_NL,https://date.nager.at/api/v3/PublicHolidays/2026/NL,200,2026-11-25,date,True
+nager_holidays_PL,https://date.nager.at/api/v3/PublicHolidays/2026/PL,200,2026-11-25,date,True
+nager_holidays_US,https://date.nager.at/api/v3/PublicHolidays/2026/US,200,2026-11-25,date,True

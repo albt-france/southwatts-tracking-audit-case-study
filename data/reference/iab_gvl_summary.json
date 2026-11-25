@@ -1,0 +1,10 @@
+{
+  "url": "https://vendor-list.consensu.org/v3/vendor-list.json",
+  "read_on": "2026-11-25",
+  "http_status": 200,
+  "vendorListVersion": 186,
+  "lastUpdated": "2026-11-19T16:00:24Z",
+  "vendors": 1240,
+  "purposes": 11,
+  "specialFeatures": 2
+}

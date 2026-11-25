@@ -1,0 +1,85 @@
+market,date,name
+FR,2026-01-01,New Year's Day
+FR,2026-04-06,Easter Monday
+FR,2026-05-01,Labour Day
+FR,2026-05-08,Victory in Europe Day
+FR,2026-05-14,Ascension Day
+FR,2026-05-25,Whit Monday
+FR,2026-07-14,Bastille Day
+FR,2026-08-15,Assumption Day
+FR,2026-11-01,All Saints' Day
+FR,2026-11-11,Armistice Day
+FR,2026-12-25,Christmas Day
+DE,2026-01-01,New Year's Day
+DE,2026-04-03,Good Friday
+DE,2026-04-06,Easter Monday
+DE,2026-05-01,Labour Day
+DE,2026-05-14,Ascension Day
+DE,2026-05-25,Whit Monday
+DE,2026-10-03,German Unity Day
+DE,2026-12-25,Christmas Day
+DE,2026-12-26,St. Stephen's Day
+ES,2026-01-01,New Year's Day
+ES,2026-01-06,Epiphany
+ES,2026-04-03,Good Friday
+ES,2026-05-01,Labour Day
+ES,2026-08-15,Assumption
+ES,2026-10-12,National Day of Spain
+ES,2026-11-01,All Saints Day
+ES,2026-12-06,Constitution Day
+ES,2026-12-08,Immaculate Conception
+ES,2026-12-25,Christmas Day
+IT,2026-01-01,New Year's Day
+IT,2026-01-06,Epiphany
+IT,2026-04-05,Easter Sunday
+IT,2026-04-06,Easter Monday
+IT,2026-04-25,Liberation Day
+IT,2026-05-01,International Workers Day
+IT,2026-06-02,Republic Day
+IT,2026-08-15,Assumption Day
+IT,2026-10-04,St. Francis of Assisi's Day
+IT,2026-11-01,All Saints Day
+IT,2026-12-08,Immaculate Conception
+IT,2026-12-25,Christmas Day
+IT,2026-12-26,St. Stephen's Day
+UK,2026-04-03,Good Friday
+UK,2026-05-04,Early May Bank Holiday
+UK,2026-05-25,Spring Bank Holiday
+UK,2026-12-25,Christmas Day
+UK,2026-12-28,St. Stephen's Day
+NL,2026-01-01,New Year's Day
+NL,2026-04-03,Good Friday
+NL,2026-04-05,Easter Sunday
+NL,2026-04-06,Easter Monday
+NL,2026-04-27,King's Day
+NL,2026-05-05,Liberation Day
+NL,2026-05-14,Ascension Day
+NL,2026-05-24,Pentecost
+NL,2026-05-25,Whit Monday
+NL,2026-12-25,Christmas Day
+NL,2026-12-26,St. Stephen's Day
+PL,2026-01-01,New Year's Day
+PL,2026-01-06,Epiphany
+PL,2026-04-05,Easter Sunday
+PL,2026-04-06,Easter Monday
+PL,2026-05-01,May Day
+PL,2026-05-03,Constitution Day
+PL,2026-05-24,Pentecost
+PL,2026-06-04,Corpus Christi
+PL,2026-08-15,Assumption Day
+PL,2026-11-01,All Saints' Day
+PL,2026-11-11,Independence Day
+PL,2026-12-24,Christmas Eve
+PL,2026-12-25,Christmas Day
+PL,2026-12-26,St. Stephen's Day
+US,2026-01-01,New Year's Day
+US,2026-01-19,"Martin Luther King, Jr. Day"
+US,2026-02-16,Presidents Day
+US,2026-05-25,Memorial Day
+US,2026-06-19,Juneteenth National Independence Day
+US,2026-07-03,Independence Day
+US,2026-09-07,Labour Day
+US,2026-10-12,Columbus Day
+US,2026-11-11,Veterans Day
+US,2026-11-26,Thanksgiving Day
+US,2026-12-25,Christmas Day

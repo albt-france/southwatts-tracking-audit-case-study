@@ -1,0 +1,258 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>dataLayer test report</title>
+<style>body{font-family:'Segoe UI',sans-serif;background:#F3F1EC;margin:24px;color:#0B0B0B}table{border-collapse:collapse;background:#fff}
+td,th{border:1px solid #E1E0D9;padding:6px 10px;vertical-align:top}.passed td:nth-child(2){color:#1BAF7A}.failed td:nth-child(2){color:#D03B3B}
+pre{white-space:pre-wrap;font-size:12px;margin:0}</style></head><body>
+<h1>dataLayer test report - demo shop (SIMULATED)</h1>
+<p>8 / 8 tests passed. Headless Chromium (Playwright) against site/demo-shop served on 127.0.0.1.
+Each ecommerce push is validated against tracking/datalayer.schema.json.</p>
+<table><tr><th>Test</th><th>Result</th><th>Detail</th></tr><tr class='passed'><td>test_consent_default_is_denied_before_any_event</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_journey_pushes_every_plan_event_valid_against_schema</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_ecommerce_cleared_before_each_push</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_event_ids_present_unique_and_shared_with_server</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_purchase_once_per_transaction_after_reload</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_bug_mode_is_caught_by_the_same_checks</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_no_request_leaves_the_browser</td><td>PASSED</td><td><pre></pre></td></tr><tr class='passed'><td>test_schema_rejects_bad_purchases</td><td>PASSED</td><td><pre></pre></td></tr></table><h2>Captured dataLayer</h2><h3>normal journey</h3><pre>[
+ {
+  &quot;gtag&quot;: [
+   &quot;consent&quot;,
+   &quot;default&quot;,
+   {
+    &quot;ad_storage&quot;: &quot;denied&quot;,
+    &quot;analytics_storage&quot;: &quot;denied&quot;,
+    &quot;ad_user_data&quot;: &quot;denied&quot;,
+    &quot;ad_personalization&quot;: &quot;denied&quot;,
+    &quot;wait_for_update&quot;: 500
+   }
+  ]
+ },
+ {
+  &quot;ecommerce&quot;: null
+ },
+ {
+  &quot;event&quot;: &quot;view_item_list&quot;,
+  &quot;ecommerce&quot;: {
+   &quot;item_list_id&quot;: &quot;all_products&quot;,
+   &quot;item_list_name&quot;: &quot;All products&quot;,
+   &quot;items&quot;: [
+    {
+     &quot;item_id&quot;: &quot;SKU0001&quot;,
+     &quot;item_name&quot;: &quot;Lamp 0001&quot;,
+     &quot;price&quot;: 49.9,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Lamp&quot;,
+     &quot;item_list_name&quot;: &quot;All products&quot;
+    },
+    {
+     &quot;item_id&quot;: &quot;SKU0002&quot;,
+     &quot;item_name&quot;: &quot;Chair 0002&quot;,
+     &quot;price&quot;: 129,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Chair&quot;,
+     &quot;item_list_name&quot;: &quot;All products&quot;
+    },
+    {
+     &quot;item_id&quot;: &quot;SKU0003&quot;,
+     &quot;item_name&quot;: &quot;Desk 0003&quot;,
+     &quot;price&quot;: 249,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Desk&quot;,
+     &quot;item_list_name&quot;: &quot;All products&quot;
+    },
+    {
+     &quot;item_id&quot;: &quot;SKU0004&quot;,
+     &quot;item_name&quot;: &quot;Shelf 0004&quot;,
+     &quot;price&quot;: 89.5,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Shelf&quot;,
+     &quot;item_list_name&quot;: &quot;All products&quot;
+    },
+    {
+     &quot;item_id&quot;: &quot;SKU0005&quot;,
+     &quot;item_name&quot;: &quot;Rug 0005&quot;,
+     &quot;price&quot;: 75,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Rug&quot;,
+     &quot;item_list_name&quot;: &quot;All products&quot;
+    },
+    {
+     &quot;item_id&quot;: &quot;SKU0006&quot;,
+     &quot;item_name&quot;: &quot;Mirror 0006&quot;,
+     &quot;price&quot;: 59.9,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Mirror&quot;,
+     &quot;item_list_name&quot;: &quot;All products&quot;
+    }
+   ]
+  }
+ },
+ {
+  &quot;gtag&quot;: [
+   &quot;consent&quot;,
+   &quot;update&quot;,
+   {
+    &quot;ad_storage&quot;: &quot;granted&quot;,
+    &quot;analytics_storage&quot;: &quot;granted&quot;,
+    &quot;ad_user_data&quot;: &quot;granted&quot;,
+    &quot;ad_personalization&quot;: &quot;granted&quot;
+   }
+  ]
+ },
+ {
+  &quot;ecommerce&quot;: null
+ },
+ {
+  &quot;event&quot;: &quot;view_item&quot;,
+  &quot;ecommerce&quot;: {
+   &quot;currency&quot;: &quot;EUR&quot;,
+   &quot;value&quot;: 129,
+   &quot;items&quot;: [
+    {
+     &quot;item_id&quot;: &quot;SKU0002&quot;,
+     &quot;item_name&quot;: &quot;Chair 0002&quot;,
+     &quot;price&quot;: 129,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Chair&quot;
+    }
+   ]
+  },
+  &quot;event_id&quot;: &quot;evt_e92d443577a398e1&quot;
+ },
+ {
+  &quot;ecommerce&quot;: null
+ },
+ {
+  &quot;event&quot;: &quot;add_to_cart&quot;,
+  &quot;ecommerce&quot;: {
+   &quot;currency&quot;: &quot;EUR&quot;,
+   &quot;value&quot;: 129,
+   &quot;items&quot;: [
+    {
+     &quot;item_id&quot;: &quot;SKU0002&quot;,
+     &quot;item_name&quot;: &quot;Chair 0002&quot;,
+     &quot;price&quot;: 129,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Chair&quot;
+    }
+   ]
+  },
+  &quot;event_id&quot;: &quot;evt_7406024548ae64a7&quot;
+ },
+ {
+  &quot;ecommerce&quot;: null
+ },
+ {
+  &quot;event&quot;: &quot;begin_checkout&quot;,
+  &quot;ecommerce&quot;: {
+   &quot;currency&quot;: &quot;EUR&quot;,
+   &quot;value&quot;: 129,
+   &quot;items&quot;: [
+    {
+     &quot;item_id&quot;: &quot;SKU0002&quot;,
+     &quot;item_name&quot;: &quot;Chair 0002&quot;,
+     &quot;price&quot;: 129,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Chair&quot;
+    }
+   ]
+  },
+  &quot;event_id&quot;: &quot;evt_01578e873cfd28ff&quot;
+ },
+ {
+  &quot;ecommerce&quot;: null
+ },
+ {
+  &quot;event&quot;: &quot;add_payment_info&quot;,
+  &quot;ecommerce&quot;: {
+   &quot;currency&quot;: &quot;EUR&quot;,
+   &quot;value&quot;: 129,
+   &quot;payment_type&quot;: &quot;card&quot;,
+   &quot;items&quot;: [
+    {
+     &quot;item_id&quot;: &quot;SKU0002&quot;,
+     &quot;item_name&quot;: &quot;Chair 0002&quot;,
+     &quot;price&quot;: 129,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Chair&quot;
+    }
+   ]
+  },
+  &quot;event_id&quot;: &quot;evt_3a0061e24fc66fd4&quot;
+ },
+ {
+  &quot;ecommerce&quot;: null
+ },
+ {
+  &quot;event&quot;: &quot;purchase&quot;,
+  &quot;ecommerce&quot;: {
+   &quot;transaction_id&quot;: &quot;CMFR5314299&quot;,
+   &quot;value&quot;: 129,
+   &quot;currency&quot;: &quot;EUR&quot;,
+   &quot;tax&quot;: 21.5,
+   &quot;shipping&quot;: 0,
+   &quot;items&quot;: [
+    {
+     &quot;item_id&quot;: &quot;SKU0002&quot;,
+     &quot;item_name&quot;: &quot;Chair 0002&quot;,
+     &quot;price&quot;: 129,
+     &quot;quantity&quot;: 1,
+     &quot;item_category&quot;: &quot;Chair&quot;
+    }
+   ]
+  },
+  &quot;event_id&quot;: &quot;evt_abde0b3ccffb8f6c&quot;
+ }
+]</pre><h3>bug mode after reload</h3><pre>{
+ &quot;dataLayer&quot;: [
+  {
+   &quot;gtag&quot;: [
+    &quot;consent&quot;,
+    &quot;default&quot;,
+    {
+     &quot;ad_storage&quot;: &quot;denied&quot;,
+     &quot;analytics_storage&quot;: &quot;denied&quot;,
+     &quot;ad_user_data&quot;: &quot;denied&quot;,
+     &quot;ad_personalization&quot;: &quot;denied&quot;,
+     &quot;wait_for_update&quot;: 500
+    }
+   ]
+  },
+  {
+   &quot;gtag&quot;: [
+    &quot;consent&quot;,
+    &quot;update&quot;,
+    {
+     &quot;ad_storage&quot;: &quot;granted&quot;,
+     &quot;analytics_storage&quot;: &quot;granted&quot;,
+     &quot;ad_user_data&quot;: &quot;granted&quot;,
+     &quot;ad_personalization&quot;: &quot;granted&quot;
+    }
+   ]
+  },
+  {
+   &quot;ecommerce&quot;: null
+  },
+  {
+   &quot;event&quot;: &quot;purchase&quot;,
+   &quot;ecommerce&quot;: {
+    &quot;transaction_id&quot;: &quot;CMFR4966595&quot;,
+    &quot;value&quot;: 129,
+    &quot;currency&quot;: &quot;EUR&quot;,
+    &quot;tax&quot;: 21.5,
+    &quot;shipping&quot;: 0,
+    &quot;items&quot;: [
+     {
+      &quot;item_id&quot;: &quot;SKU0002&quot;,
+      &quot;item_name&quot;: &quot;Chair 0002&quot;,
+      &quot;price&quot;: 129,
+      &quot;quantity&quot;: 1,
+      &quot;item_category&quot;: &quot;Chair&quot;
+     }
+    ]
+   },
+   &quot;event_id&quot;: &quot;evt_9749ddfdb1ee53e4&quot;
+  }
+ ],
+ &quot;serverPreview&quot;: [
+  {
+   &quot;destination&quot;: &quot;meta_capi&quot;,
+   &quot;event_name&quot;: &quot;Purchase&quot;,
+   &quot;event_id&quot;: &quot;srv_8a2daaea82ddab0c&quot;,
+   &quot;browser_event_id&quot;: &quot;evt_9749ddfdb1ee53e4&quot;
+  }
+ ]
+}</pre>
+<p>Independent case study based on public data · not affiliated with or endorsed by SouthWatts</p></body></html>

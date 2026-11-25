@@ -1,0 +1,2 @@
+destination,first_alert_hour,last_alert_hour,alert_hours,failed_events,alert_raised_at
+meta_capi,2026-11-05 02:00:00,2026-11-05 08:00:00,7,582.0,2026-11-05 03:00:00

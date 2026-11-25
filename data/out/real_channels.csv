@@ -1,0 +1,12 @@
+channel,sessions,purchases,pct_sessions,purchase_rate_pct
+No source on any event,129747,33.0,36.06,0.025
+Organic Search,96692,1484.0,26.87,1.535
+Direct,35318,281.0,9.82,0.796
+Self-referral (bug),35065,1325.0,9.75,3.779
+Referral,25536,960.0,7.1,3.759
+Obfuscated (<Other>),24665,117.0,6.85,0.474
+Paid Search,7490,45.0,2.08,0.601
+Data deleted,4047,201.0,1.12,4.967
+Affiliates,1076,2.0,0.3,0.186
+Email,180,18.0,0.05,10.0
+Unassigned,1,0.0,0.0,0.0

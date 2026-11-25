@@ -1,0 +1,61 @@
+sku,market,issue,severity,detail
+SKU0016,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0022,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0025,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0026,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0032,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0035,UK,missing_required,disapproval risk,availability
+SKU0052,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0066,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0074,UK,missing_required,disapproval risk,availability
+SKU0079,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0082,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0091,UK,missing_required,disapproval risk,availability
+SKU0102,UK,missing_required,disapproval risk,availability
+SKU0113,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0117,UK,missing_required,disapproval risk,availability
+SKU0131,UK,missing_required,disapproval risk,availability
+SKU0135,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0141,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0152,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0166,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0175,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0207,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0241,UK,missing_required,disapproval risk,availability
+SKU0246,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0249,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0260,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0268,UK,missing_required,disapproval risk,availability
+SKU0279,UK,missing_required,disapproval risk,availability
+SKU0282,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0290,UK,wrong_currency,disapproval risk,EUR instead of GBP
+SKU0022,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0038,PL,missing_required,disapproval risk,availability
+SKU0049,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0054,PL,missing_required,disapproval risk,availability
+SKU0065,PL,missing_required,disapproval risk,availability
+SKU0067,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0079,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0081,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0082,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0086,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0097,PL,missing_required,disapproval risk,availability
+SKU0101,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0106,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0114,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0124,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0126,PL,missing_required,disapproval risk,availability
+SKU0136,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0148,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0180,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0187,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0190,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0201,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0222,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0226,PL,missing_required,disapproval risk,availability
+SKU0244,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0257,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0261,PL,missing_required,disapproval risk,availability
+SKU0262,PL,wrong_currency,disapproval risk,EUR instead of PLN
+SKU0279,PL,missing_required,disapproval risk,availability
+SKU0299,PL,missing_required,disapproval risk,availability

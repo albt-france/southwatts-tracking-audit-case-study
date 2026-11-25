@@ -1,0 +1,9 @@
+event,name,is_bug,check,first_fail,detection_delay,found,comment
+1,consent_mode_misdeployed,True,pre_consent_hits + sessions_vs_baseline,2026-10-14,1 days 00:00:00,True,check runs at the end of the hour/day
+2,meta_double_counting,True,meta_event_id_match,2026-10-07,1 days 00:00:00,True,check runs at the end of the hour/day
+3,utm_non_compliance,True,paid_unassigned_share,2026-08-31,,True,found by the first run (snapshot / catalogue check)
+4,duplicate_purchases,True,ga4_duplicate_purchases,2026-09-01,1 days 00:00:00,True,check runs at the end of the hour/day
+5,cross_domain_broken,True,purchase_self_referral,2026-10-28,1 days 00:00:00,True,check runs at the end of the hour/day
+6,google_ads_vs_ga4_gap,False,platform_reconciliation,,,True,"Google Ads > GA4 classified as expected (attribution model, window, click date)"
+7,feed_currency_availability,True,feed_quality,2026-11-23,,True,found by the first run (snapshot / catalogue check)
+8,server_container_outage,True,server_error_rate,2026-11-05 02:00:00,0 days 01:00:00,True,check runs at the end of the hour/day

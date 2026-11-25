@@ -1,0 +1,98 @@
+{
+ "real": {
+  "purchase_events": 5692,
+  "distinct_ids": 4451,
+  "without_id": 906,
+  "pct_without_id": 15.9,
+  "duplicated_ids": 326,
+  "extra_rows": 335,
+  "dup_within_1min": 288,
+  "pct_revenue_counted_twice": 6.23,
+  "revenue_counted_twice": 22577.33,
+  "page_views": 1350428,
+  "self_referral_pv": 206005,
+  "pct_self_referral_pv": 15.3,
+  "missing_medium_pv": 866938,
+  "pct_missing_medium_pv": 64.2,
+  "data_deleted_pv": 8811,
+  "sessions": 359817,
+  "self_ref_sessions": 35065,
+  "self_ref_session_purchases": 1325,
+  "pct_purchases_in_self_ref_sessions": 29.7,
+  "selfref_break_date": "2020-12-29",
+  "selfref_before_pct": 22.1,
+  "selfref_after_pct": 1.6
+ },
+ "recon": {
+  "market_weeks": 176,
+  "unexplained": 0,
+  "anomalous": 21,
+  "expected": 155,
+  "pct_explained": 100.0,
+  "google_r0": 1.226,
+  "google_gap_pct": 22.6,
+  "google_anomalous": 7,
+  "meta_r0": 0.87,
+  "meta_frs_before": 0.83,
+  "meta_frs_after": 1.59,
+  "meta_multiplier": 1.9,
+  "meta_anomalous": 14
+ },
+ "consent": {
+  "up_pct": 19.3,
+  "down_pct": -33.4,
+  "pre_choice_share": 15.0
+ },
+ "utm": {
+  "pct_unassigned": 19.1,
+  "agy2_unassigned": 46.1,
+  "links": 266,
+  "links_fail": 68,
+  "pct_links_compliant": 74.4,
+  "agy2_compliant": 57.6,
+  "missing_medium_pct": 12.0
+ },
+ "dedup": {
+  "it_extra_pct": 5.89,
+  "purchase_events": 38929,
+  "unique": 38694,
+  "pct_deduplicated": 99.4
+ },
+ "server": {
+  "alert_first_hour": "2026-11-05 02:00:00",
+  "alert_raised": "2026-11-05 03:00:00",
+  "failed_events": 582,
+  "alert_hours": 7,
+  "delivered_pct": 99.43,
+  "meta_capi_delivered_pct": 99.25,
+  "meta_day_dev_pct": 12.8,
+  "meta_noise_range_pct": [
+   -26.1,
+   23.7
+  ]
+ },
+ "feed": {
+  "pl_pct": 10.0,
+  "uk_pct": 10.0,
+  "wrong_currency": 42,
+  "missing_availability": 18
+ },
+ "monitoring": {
+  "checks": 10607,
+  "fail": 357,
+  "warn": 171,
+  "found": 8
+ },
+ "sim_rows": {
+  "ga4_events": 3348292,
+  "orders_backend": 52768,
+  "server_events": 769944,
+  "pixel_events": 368493
+ },
+ "iab": {
+  "version": 186,
+  "updated": "2026-11-19",
+  "vendors": 1240,
+  "purposes": 11
+ }
+}

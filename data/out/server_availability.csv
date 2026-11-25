@@ -1,0 +1,5 @@
+destination,active_hours,pct_hours_healthy,pct_events_delivered,median_p95_latency_ms
+ga4,2024,100.0,99.62,213.0
+google_ads,2021,97.18,99.51,197.0
+linkedin_capi,2018,92.32,99.08,193.0
+meta_capi,2024,99.46,99.25,215.0

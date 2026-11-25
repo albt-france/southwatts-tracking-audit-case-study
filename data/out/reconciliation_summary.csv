@@ -1,0 +1,6 @@
+platform,category,explanation,market_weeks,mean_ratio,min_ratio,max_ratio
+google_ads,anomalous,GA4 side broken: cross-domain (payment provider / self-referral),4,3.676,2.651,4.28
+google_ads,anomalous,GA4 side broken: consent mode release (see consent_breaks),3,1.646,1.561,1.738
+google_ads,expected,"attribution model (data-driven vs last non-direct click), 30-day window, click date",81,1.197,0.901,1.397
+meta,anomalous,Meta side broken: pixel and CAPI event_id differ (double counting),14,1.556,1.195,1.76
+meta,expected,view-through credit and consent: within normal range,74,0.89,0.618,1.269

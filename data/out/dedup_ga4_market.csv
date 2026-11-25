@@ -1,0 +1,9 @@
+market,purchase_events,unique_transactions,pct_extra_purchases,without_transaction_id
+IT,4228,3993,5.89,0
+DE,5237,5237,0.0,0
+ES,4266,4266,0.0,0
+FR,6345,6345,0.0,0
+NL,2737,2737,0.0,0
+PL,2493,2493,0.0,0
+UK,6467,6467,0.0,0
+US,7156,7156,0.0,0

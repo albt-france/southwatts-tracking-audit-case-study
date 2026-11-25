@@ -1,0 +1,165 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-11-25 00:00:00",
+  "containerVersion": {
+    "path": "accounts/0/containers/0/versions/0",
+    "accountId": "0",
+    "containerId": "0",
+    "containerVersionId": "0",
+    "name": "template v1",
+    "description": "TEMPLATE for a fictional client. Placeholder ids. Validate by importing into a TEST container (merge, new workspace). Meta Conversions API and LinkedIn Conversions API tags come from the server Template Gallery: add them after import, with event_id = {{ED - event_id}} and the same event name as the pixel.",
+    "container": {
+      "path": "accounts/0/containers/0",
+      "accountId": "0",
+      "containerId": "0",
+      "name": "Client M - server (template)",
+      "publicId": "GTM-SRVXXXX",
+      "usageContext": [
+        "SERVER"
+      ]
+    },
+    "tag": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "tagId": "20",
+        "name": "GA4 - forward all events",
+        "type": "sgtmgaaw",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "redactVisitorIp",
+            "value": "true"
+          }
+        ],
+        "firingTriggerId": [
+          "300"
+        ]
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "tagId": "21",
+        "name": "Google Ads - purchase conversion (server)",
+        "type": "sgtmadsct",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "conversionId",
+            "value": "000000000"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "conversionLabel",
+            "value": "DEMO_LABEL"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "orderId",
+            "value": "{{ED - transaction_id}}"
+          }
+        ],
+        "firingTriggerId": [
+          "301"
+        ]
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "triggerId": "300",
+        "name": "Client = GA4 client",
+        "type": "ALWAYS",
+        "filter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{Client Name}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "GA4 client"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "triggerId": "301",
+        "name": "Event = purchase",
+        "type": "ALWAYS",
+        "filter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{Event Name}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "purchase"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "variable": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "variableId": "30",
+        "name": "ED - event_id",
+        "type": "ed",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "keyPath",
+            "value": "event_id"
+          }
+        ]
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "variableId": "31",
+        "name": "ED - transaction_id",
+        "type": "ed",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "keyPath",
+            "value": "transaction_id"
+          }
+        ]
+      }
+    ],
+    "client": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "clientId": "1",
+        "name": "GA4 client",
+        "type": "gaaw_client",
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "activateDefaultPaths",
+            "value": "true"
+          }
+        ],
+        "priority": 0
+      }
+    ]
+  }
+}
